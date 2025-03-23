@@ -1,0 +1,86 @@
+/* Загальні стилі */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Чорний фон */
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Хедер */
+header {
+    background-color: #1A237E; /* Темно-синій */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #BB86FC; /* Фіолетовий */
+}
+
+.logo {
+    width: 100px;
+}
+
+/* Навігація */
+nav {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #0D47A1; /* Темно-синій */
+    border-radius: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+
+.in_presence {
+    background-color: #BB86FC;
+    color: black;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+/* Головний контент */
+h2 {
+    color: #BB86FC;
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+/* Таблиця зодіаків */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 20px;
+    border: 2px solid #BB86FC;
+    border-radius: 10px;
+}
+
+.zodiac-img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+/* Футер */
+footer {
+    background-color: #1A237E;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.footer-logo {
+    width: 100px;
+    border-radius: 10px;
+}
